@@ -61,7 +61,8 @@
     margin-top: auto;
 }
 .cabecao{
-    border-top: 3px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
     bottom: 0;
     left: 0;
     height: 40px;
