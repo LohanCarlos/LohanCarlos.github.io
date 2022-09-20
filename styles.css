@@ -46,7 +46,7 @@
     border: 4px solid rgb(0, 0, 0); 
     padding: 5px;
     background-color: rgb(135, 250, 196);
-    margin-left:200px ;
+    margin-left:200px;
     
 }
 .secao{
@@ -72,12 +72,12 @@
     text-align: right;
     font-family: 'Times New Roman', Times, serif;
     color:deepskyblue;
-    margin-top: 0
   }
 .pezao{
   width:100%;
   height: 70px;
   background-color: #333;
+  margin-top: -5px;
 }
 .logo{
     width: 100px;
