@@ -54,8 +54,7 @@
     height: 100px;    
 }
 .botao{
-    background-color: coral
-    
+    background-color: coral;  
 }
 .botao{
     width: 200px;
@@ -71,7 +70,7 @@
     background-color: #333;
     text-align: right;
     font-family: 'Times New Roman', Times, serif;
-    color:deepskyblue
+    color:deepskyblue;
   }
 .pezao{
   width:100%;
