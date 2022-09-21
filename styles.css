@@ -136,8 +136,9 @@
     height: 70px;
 }
 .redessociais{
+    float: unset;
     margin-top: 0;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 350px;
     border: 0px solid rgb(22, 21, 21);
