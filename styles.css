@@ -23,7 +23,7 @@
     width: 200px;
     height: 380px;
     display:table-cell;
-    float:left
+    float:left;
 }
 .foto1{
     width: 400px;
@@ -101,7 +101,7 @@
     height: 100px;    
 }
 .botão{
-    background-color: coral
+    background-color: coral;
     
 }
 .botão{
@@ -118,7 +118,7 @@
     background-color: #333;
     text-align: right;
     font-family: 'Courier New', Courier, monospace;
-    color:deepskyblue
+    color:deepskyblue;
   }
 .pezão{
     border-top: 3px solid rgb(0, 0, 0);
