@@ -2,16 +2,16 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-color:lightpink;
+    background-color:rgb(22, 21, 21);
     width: 100%;
     height: 700px;
     
 }
 .titulo{
-    font-size:250%;
-    font-family: 'Times New Roman', Times, serif;
+    font-size:200%;
+    font-family:'Courier New', Courier, monospace;
     text-align: center;
-    text-shadow: 4px;
+    text-shadow: 0.1em 0.1em #333;
     text-justify: auto;
     margin: auto;
     background-color:powderblue; 
@@ -21,47 +21,95 @@
 }
 .foto{
     width: 200px;
-    height: 220px;
+    height: 380px;
     display:table-cell;
     float:left
+}
+.foto1{
+    width: 400px;
+    height: 290px;
+    display: table-cell;
+    float:unset;
+}
+.foto2{
+    width: 60px;
+    height: 60px;
+    float: unset;
+    justify-content: space-between;
 }
 .texto{
     float: left;
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
     width: 600px;
     margin-top: 0px;
-    border: 4px solid rgb(0, 0, 0); 
+    border-left: 6px solid rgb(0, 0, 0); 
+    border-right: 4px solid rgb(0, 0, 0);
+    border-top: 4px solid rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
     padding: 5px;
     background-color: lightskyblue;
 }
 .texto2{
     float:unset;
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 21px;
-    width: 600px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    max-width: 600px;
     margin-top: 0px;
-    border: 4px solid rgb(0, 0, 0); 
+    border-left: 6px solid rgb(0, 0, 0); 
+    border-right: 4px solid rgb(0, 0, 0);
+    border-top: 4px solid rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
     padding: 5px;
     background-color: rgb(135, 250, 196);
-    margin-left:200px;
-    
+    margin-left:200px ;
 }
-.secao{
+.texto3{
+    float:flex;
+    text-align: justify;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 22px;
+    max-width: 50%;
+    margin-top: -520px;
+    border-left: 4px solid rgb(0, 0, 0); 
+    border-right: 4px solid rgb(0, 0, 0);
+    border-top: 6px solid rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    padding: 5px;
+    background-color:crimson;
+    margin-left:70%;
+}
+.texto4{
+    float:unset;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    max-width: 400px;
+    margin-top: -100px;
+    border-left: 4px solid rgb(0, 0, 0); 
+    border-right: 4px solid rgb(0, 0, 0);
+    border-top: 6px solid rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    padding: 5px;
+    background-color:crimson;
+    margin-left: 300px;
+}
+.seçao{
     width: 100px;
     height: 100px;    
 }
-.botao{
-    background-color: coral;  
+.botão{
+    background-color: coral
+    
 }
-.botao{
+.botão{
     width: 200px;
     margin-top: auto;
 }
-.cabecao{
-    border-top: 4px solid rgb(0, 0, 0);
+.cabeção{
+    border-top: 3px solid rgb(0, 0, 0);
     bottom: 0;
     left: 0;
     height: 40px;
@@ -69,19 +117,34 @@
     width: 100%;
     background-color: #333;
     text-align: right;
-    font-family: 'Times New Roman', Times, serif;
-    color:deepskyblue;
+    font-family: 'Courier New', Courier, monospace;
+    color:deepskyblue
   }
-.pezao{
-  width:100%;
-  height: 70px;
-  background-color: rgb(255, 255, 255);
+.pezão{
+    border-top: 3px solid rgb(0, 0, 0);
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    text-align: right;
+    
 }
 .logo{
     width: 100px;
     height: 70px;
-    top: 0;
-    left: 0;
-    display: unset;
-    float: left;
+}
+.redessociais{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0px;
+    margin-left: 350px;
+    border: 0px solid rgb(22, 21, 21);
+    display: flex;
+    justify-content: space-between;
+    max-width: 220px;
+}
+.ul{
+    list-style-type:none;
 }
